@@ -5,7 +5,8 @@
 <p align="center">
     <img src = "Image/ForMD/pose_face_hands.gif", width="100%">
     <sup>Authors <a href="https://www.gineshidalgo.com" target="_blank">Gines Hidalgo</a> (left) and <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a> (right) in front of the <a href="http://domedb.perception.cs.cmu.edu" target="_blank">CMU Panoptic Studio</a></sup>
-    [**CMU-Perceptual-Computing-Lab**](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+
+[**CMU-Perceptual-Computing-Lab**](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
     <img src = "Image/ForMD/AngleCheck.gif", width="50%">
     <img src = "Image/ForMD/PushUp.gif", width="50%">
 </p>
