@@ -2,17 +2,17 @@
 
 -----------------
 
-[**CMU-Perceptual-Computing-Lab**](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 <p align="center">
     <img src = "Image/ForMD/pose_face_hands.gif", width="100%">
-    <sup>Authors <a href="https://www.gineshidalgo.com" target="_blank">Gines Hidalgo</a> (left) and <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a> (right) in front of the <a href="http://domedb.perception.cs.cmu.edu" target="_blank">CMU Panoptic Studio</a></sup>
+    <sup>Authors <a href="https://www.gineshidalgo.com" target="_blank">Gines Hidalgo</a> (left) and <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a> (right) in front of the <a href="http://domedb.perception.cs.cmu.edu" target="_blank">CMU Panoptic Studio</a>, <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose" target="_blank">CMU-Perceptual-Computing-Lab</a>
+    </sup>
     <img src = "Image/ForMD/AngleCheck.gif", width="50%" heigth="50%"><img src = "Image/ForMD/PushUp.gif", width="50%" heigth="184.26">
 </p>
 
 -----------------
 
 ## Contents
-1. [Intro](#intro)
+1. [소개](#소개)
 2. [Main Function](#main-function)
 3. [Using](#using)
 4. [Presentation and Testing Video](#presentation-and-testing-video)
@@ -21,7 +21,7 @@
 
 -----------------
 
-## Intro
+## 소개
 
 
 -----------------
@@ -49,15 +49,15 @@
 
 ## Main Source Code
 - **Detailed Code** : can be found in each directory.
-1. FITNESS CHECKER
+**1. FITNESS CHECKER**
 <p align="center">
     <img src = "Image/ForMD/FITNESS_CHECKER.png", width="100%">
 </p>
-2. MOTION TRAINER
+**2. MOTION TRAINER**
 <p align="center">
     <img src = "Image/ForMD/MOTION_TRAINER.png", width="100%">
 </p>
-3. MIMIC ROBOT
+**3. MIMIC ROBOT**
 <p align="center">
     <img src = "Image/ForMD/MIMIC_ROBOT_PYTHON.png", width="100%">
     <img src = "Image/ForMD/MIMIC_ROBOT_ARDUINO.png", width="100%">
