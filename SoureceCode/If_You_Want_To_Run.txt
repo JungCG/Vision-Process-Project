@@ -1,0 +1,6 @@
+Check
+1. ESP32 Address
+2. protoFile directory
+3. weightsFile directory
+4. Cam number : VideoCapture(*)
+5. output file_path
