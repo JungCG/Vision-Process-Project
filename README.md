@@ -6,7 +6,7 @@
 <p align="center">
     <img src = "Image/ForMD/pose_face_hands.gif", width="100%">
     <sup>Authors <a href="https://www.gineshidalgo.com" target="_blank">Gines Hidalgo</a> (left) and <a href="https://jhugestar.github.io" target="_blank">Hanbyul Joo</a> (right) in front of the <a href="http://domedb.perception.cs.cmu.edu" target="_blank">CMU Panoptic Studio</a></sup>
-    <img src = "Image/ForMD/AngleCheck.gif", width="50%"><img src = "Image/ForMD/PushUp.gif", width="50%">
+    <img src = "Image/ForMD/AngleCheck.gif", width="50%" heigth="50%"><img src = "Image/ForMD/PushUp.gif", width="50%" heigth="50%">
 </p>
 
 -----------------
