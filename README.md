@@ -1,4 +1,4 @@
-
+![pose_face_hands](https://user-images.githubusercontent.com/63228713/89713663-35f89880-d9d4-11ea-9290-f2c3e92d10b6.gif)
 -----------------
 # OpenPose를 이용한 영상처리
 -----------------
