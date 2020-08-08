@@ -49,15 +49,22 @@
 
 ## Main Source Code
 - **Detailed Code** : can be found in each directory.
+
 **1. FITNESS CHECKER**
+
 <p align="center">
     <img src = "Image/ForMD/FITNESS_CHECKER.png", width="100%">
 </p>
+
 **2. MOTION TRAINER**
+
 <p align="center">
     <img src = "Image/ForMD/MOTION_TRAINER.png", width="100%">
+
 </p>
+
 **3. MIMIC ROBOT**
+
 <p align="center">
     <img src = "Image/ForMD/MIMIC_ROBOT_PYTHON.png", width="100%">
     <img src = "Image/ForMD/MIMIC_ROBOT_ARDUINO.png", width="100%">
