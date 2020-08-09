@@ -42,14 +42,14 @@
 
 ## Using
 1. **Python**
-2. **OpenPose Library (OpenCV+Caffe Model)**
+2. [OpenPose Library (OpenCV+Caffe Model)](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 3. **ESP32(WiFi, WEB SOCKET ) + Sub MOTORS + Arduino IDE**
 4. **3D Print(for MIMIC ROBOT)**
 
 -----------------
 
 ## Main basic operation and features
-1. **OpenPose Library**
+**1. OpenPose Library**
 - OpenPose Library를 이용하였습니다. OpenPose Library는 Caffe와 OpenCV기반으로 구성된 몸의 움직임을 추적해주는 API입니다. 입력으로 이미지나 영상을 웹 캠 또는 IP 카메라와 같은 입력장치로부터 받을 수 있는데 이 프로젝트에서는 이미지와 웹 캠을 이용하였습니다. OpenPose Library를 이용하는 것으로 골격에 대한 정보를 추출할 수 있습니다.
 
 <p align="center">
@@ -64,7 +64,7 @@
 
 - 앞서 언급한 관절위치와 근육의 운동방향 추출 방법에 대해 자세히 알아보면 이미지 데이터를 OpenPose Network로 전송하여 10개의 Layer로 이미지 data를 판독하여 Feature가 강조된 형태의 Output으로 출력되게 됩니다. 이제 해당 Output은 1에서 6까지 stage의 입력으로 활용되어 각 stage에서 ground truth라는 정답 Label과의 비교를 통해 loss를 구하고, 이를 Optimize하는 것으로 높은 정확도의 결과값을 얻을 수 있게 됩니다.
 
-2. **Angle Calucator**
+**2. Angle Calucator**
 
 <p align="center">
     <img src = "Image/ForMD/AngleCal.png", width="100%">
@@ -72,13 +72,13 @@
 
 - 두 번째로 관절을 추출한 이후 동작을 인식하기 위해 각도가 필여하다고 생각했습니다. 그래서 직선 사이의 각도를 구하는 수학적 공식, Arctanget를 이용하여 관절의 각도를 계산했습니다.
 
-3. **Pose Detector**
+**3. Pose Detector**
 - 각도 계산이 기본적으로 좌표 값을 이용하여 계산이 되기 떄문에 매 프레임에서 좌표값이 바뀌는 추세를 확인하여 좌표 값의 범위 기준에 따라 다양한 행동을 감지할 수 있습니다.
 
-4. **WebSocket Communication**
+**4. WebSocket Communication**
 - Python OpenCV를 처리된 값들을 단지 화면에 표시하는 방식이 아닌 각 처리된 값을 추출한 뒤 Wi-Fi 모듈을 이용한 웹 소켓 통신 방식으로 데이터를 전송하여 컨트롤하는 시스템을 만들었습니다. 또한 고정 IP를 사용하여 계속해서 바뀌는 IP문제를 해결하기도 하였습니다.
 
-5. **Submotor, Shield**
+**5. Submotor, Shield**
 
 <p align="center">
     <img src = "Image/ForMD/ESP32.png", width="100%">
@@ -86,7 +86,7 @@
 
 - 로봇 팔을 컨트롤 하기 위해서 다수의 서브모터가 필요했습니다. 서브모터를 좀 더 쉽게 제어를 하기 위하여 ESP32전용 서브모터 쉴드를 자체 제작하였습니다. 쉴드의 특징은 470uF 캐패시터를 이용하여 전류 부족 문제를 해결할 수 있었꼬, 그라운드, 전원 핀을 시그널 핀의 옆에 같이 만듦으로써 불필요한 선 연결을 없앴습니다.
 
-6. **Robot by 3D Printer**
+**6. Robot by 3D Printer**
 
 <p align="center">
     <img src = "Image/ForMD/Printing.png", width="100%">
