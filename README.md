@@ -46,7 +46,7 @@
 -----------------
 
 ## Using
-1. **Python**
+1. **Python** (IDE : Visual Code)
 2. [OpenPose Library (OpenCV+Caffe Model)](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 3. **ESP32(WiFi, WEB SOCKET ) + Sub MOTORS + Arduino IDE**
 4. **3D Print(for MIMIC ROBOT)**
