@@ -11,14 +11,19 @@
 
 -----------------
 
+## Presentation and Testing Video
+- **Youtube**:
+    - [**Presentation**](https://youtu.be/ssnje_t5aMg).
+
+-----------------
+
 ## Contents
 1. [소개](#소개)
 2. [Main Function](#main-function)
 3. [Using](#using)
 4. [Main basic operation and features](#main-basic-operation-and-features)
-5. [Presentation and Testing Video](#presentation-and-testing-video)
-6. [Main Source Code](#main-source-code)
-7. [License](#license)
+5. [Main Source Code](#main-source-code)
+6. [License](#license)
 
 -----------------
 
@@ -93,12 +98,6 @@
 </p>
 
 - 카메라에서 추출된 데이터 값을 이용하기 위한 로봇을 3D 프린터와 서브모터를 활용하여 제작을 하였습니다.
-
------------------
-
-## Presentation and Testing Video
-- **Youtube**:
-    - [**Presentation**](https://youtu.be/ssnje_t5aMg).
 
 -----------------
 
