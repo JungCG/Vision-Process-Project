@@ -13,7 +13,7 @@
 
 ## Presentation and Testing Video
 - **Youtube**:
-    - [**Presentation**](https://youtu.be/ssnje_t5aMg).
+    - [**Presentation**](https://youtu.be/ssnje_t5aMg) [![Youtube Badge](https://img.shields.io/badge/Youtube-ff0000?style=flat-square&logo=youtube&link=https://youtu.be/ssnje_t5aMg)](https://youtu.be/ssnje_t5aMg)
 
 -----------------
 
